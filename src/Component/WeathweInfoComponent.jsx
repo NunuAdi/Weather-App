@@ -7,7 +7,7 @@ export const WeatherInfoIcons = {
     humidity: "/icon/humidity.svg",
     wind: "/icon/wind.svg",
     pressure: "/icon/pressure.svg",
-    rain: "/icon/rain.svg",
+    // rain: "/icon/rain.svg",
 };
 
 const WeatherInfoComponent = (props) => {
@@ -49,7 +49,7 @@ const WeatherInfoComponent = (props) => {
               <WeatherInfoComponent name={"humidity"} value={weather?.main?.humidity}/>
               <WeatherInfoComponent name={"wind"} value={weather?.wind?.speed}/>
               <WeatherInfoComponent name={"pressure"} value={weather?.main?.pressure}/>
-              <div className = "text-blue-200"><WeatherInfoComponent name={"rain"} value={weather?.main.rain}/>Chance of rain: 23%</div>
+              {/* <div className = "text-blue-200"><WeatherInfoComponent name={"rain"} value={weather?.main.rain}/>Chance of rain: 23%</div> */}
               
           </div>
         </>
