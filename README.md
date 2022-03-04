@@ -12,6 +12,9 @@ Such as: Sunrise, Humidity, Wind, Pressure
 
 <a href="https://ibb.co/d2MC5Gz"><img src="https://i.ibb.co/NjCDyZH/Weather-App-2.png" alt="Weather-App-2" border="0" /></a>
 
+### `Supported`
+#### Web, Mobile, Tablet
+
 ## Live Application URL
 [WorldWide Weather App](https://israel-weather-app.netlify.app)
 
